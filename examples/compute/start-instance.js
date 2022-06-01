@@ -1,9 +1,8 @@
 /*
- * Sample code to get list of instances in particular region, compartment.
- * You may still add more select criteria in ListInstancesRequest like compartmentId.
+ * Sample code to start the given instance based on instance OCID and region.
  * 
- * Sample Output (Masked):
- * Instance: ocid1.instance.oc1.iad.anu...xru2a
+ * Sample Output:
+ * (Prints the instance details)
  */
 
 const common = require("oci-common");
